@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFrameworks>netcoreapp2.1;netstandard2.0</TargetFrameworks>
+    <RootNamespace>Feedz.PackageCreator</RootNamespace>
+    <AssemblyName>Feedz.PackageCreator</AssemblyName>
+    <RuntimeIdentifier>win7-x64</RuntimeIdentifier>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Feedz.Util" Version="0.1.2" />
+    <PackageReference Include="NuGet.Common" Version="4.2.0" />
+    <PackageReference Include="NuGet.Protocol.Core.Types" Version="4.2.0" />
+    <PackageReference Include="NuGet.Protocol.Core.v3" Version="4.2.0" />
+    <PackageReference Include="NuGet.Repositories" Version="4.2.0" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Remove="nuget.exe" />
+    <EmbeddedResource Include="nuget.exe" />
+  </ItemGroup>
+</Project>

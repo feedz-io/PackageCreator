@@ -1,6 +1,7 @@
 ﻿using System;
 using System.IO;
 using Feedz.Util;
+using Feedz.Util.Processes;
 
 namespace Feedz.PackageCreator
 {

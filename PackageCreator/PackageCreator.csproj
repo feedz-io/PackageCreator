@@ -5,6 +5,7 @@
     <RootNamespace>Feedz.PackageCreator</RootNamespace>
     <AssemblyName>Feedz.PackageCreator</AssemblyName>
     <RuntimeIdentifier>win7-x64</RuntimeIdentifier>
+    <TargetLatestRuntimePatch>true</TargetLatestRuntimePatch>
   </PropertyGroup>
   <ItemGroup>
     <PackageReference Include="Feedz.Util" Version="0.2.1" />

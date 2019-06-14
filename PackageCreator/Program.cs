@@ -46,7 +46,7 @@ namespace Feedz.PackageCreator
                     void Write(int fileSize)
                     {
                         var contents = new byte[fileSize];
-                        while (size > fileSize)
+                        while (size > 0)
                         {
                             rnd.NextBytes(contents);
                             using (var s = zip.WriteToStream(Guid.NewGuid().ToString("N"), new ZipWriterEntryOptions()))

@@ -8,7 +8,7 @@
     <TargetLatestRuntimePatch>true</TargetLatestRuntimePatch>
   </PropertyGroup>
   <ItemGroup>
-    <PackageReference Include="Feedz.Util" Version="0.2.1" />
+    <PackageReference Include="Feedz.Util" Version="0.3.0" />
     <PackageReference Include="NuGet.Common" Version="5.1.0" />
     <PackageReference Include="NuGet.Protocol" Version="5.1.0" />
     <PackageReference Include="SharpCompress" Version="0.22.0" />

@@ -75,7 +75,6 @@ Task("Publish")
         DotNetCorePublish("./PackageCreator", new DotNetCorePublishSettings
         {
             Configuration = configuration,
-            Framework = "netcoreapp2.1",
             OutputDirectory = "./output",
             ArgumentCustomization = args => args.Append($"/p:Version={nugetVersion}")
         });
